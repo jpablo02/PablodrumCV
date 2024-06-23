@@ -15,7 +15,9 @@ const nextConfig = {
     return config;
   },
   images: {
-    domains: ["ipfs.io"], // Añade esta línea para permitir imágenes desde ipfs.io
+    domains: ["ipfs.io",'bafybeiac6cjqivfvx3zrmx3gdoojsvlse2a4ss5gqdpvgofj46vyjzkhzq.ipfs.dweb.link',
+      'bafybeicneconorvw7rjzrgsnhsobm2bbjhfucyeowc3uhyy76oze5rppfe.ipfs.dweb.link',
+      'ipfs.io',], // Añade esta línea para permitir imágenes desde ipfs.io
   },
 };
 
